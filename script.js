@@ -18,6 +18,8 @@ Array.from(boxes).forEach(element =>
 {
     let boxtext = element.querySelector('.boxtext');
     element.addEventListener('click',()=>{
-
-    })
+if(boxtext.innerText === ''){
+    
 }
+    })
+})
