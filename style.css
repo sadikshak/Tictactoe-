@@ -50,7 +50,8 @@ nav ul{
     font-family: 'Roboto', sans-serif;
 }
 .imgbox img{
-    display: none;
+    width: 0;
+    transition: width 1s ease-in-out;
 }
 
 .br-0{
