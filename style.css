@@ -44,6 +44,9 @@ nav ul{
 .box:hover{
     background-color: rgb(77, 59, 93);
 }
+.info{
+    font-size: 25px;
+}
 
 .gameInfo{
     padding: 0 34px;
@@ -67,4 +70,14 @@ nav ul{
 }
 .bb-0{
     border-bottom: 0;
+}
+#reset
+{
+    margin: 0px 23px;
+    padding:6px 14px;
+    background-color: rgb(155, 150, 236);
+    border-radius: 6px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bolder;
 }

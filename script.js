@@ -50,3 +50,14 @@ if(boxtext.innerText === ''){
 }
     })
 })
+//for reset- adding on click listner 
+reset.addEventListener('click', ()=>
+{
+    let boxtexts= document.querySelectorAll('.boxtext');
+    Array.from(boxtexts).forEach(element =>{
+        element.innerText=""
+    });
+    turn="X";
+    isgameover= false
+    document.getElementsByClassName("info") [0].innerText = "Turn for" +turn; 
+})
